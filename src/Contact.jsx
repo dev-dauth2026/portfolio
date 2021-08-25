@@ -40,7 +40,7 @@ const Contact = () => {
                                 <input type="email" name='email' value={data.email} onChange={inputEvent} class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                                 <textarea class="form-control" name='msg' value={data.msg} onChange={inputEvent} id="exampleFormControlTextarea1" rows="5"></textarea>
                             </div>
                             <button type='submit' className='btn btn-outline-primary float-end'>Submit</button>
